@@ -16,7 +16,7 @@
   "repository": {
     "type": "git",
     "url": "git://github.com/athanclark/purescript-parseint.git"
-  }
+  },
   "devDependencies": {
     "purescript-psci-support": "^3.0.0"
   }
