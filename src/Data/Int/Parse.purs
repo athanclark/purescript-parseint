@@ -1,6 +1,6 @@
 module Data.Int.Parse (Radix, toRadix, parseInt) where
 
-import Prelude
+import Prelude ((<), (>))
 import Data.Maybe (Maybe (..))
 import Data.Int (round)
 import Data.Function.Uncurried (Fn2, runFn2)
