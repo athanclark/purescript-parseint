@@ -4,7 +4,7 @@ import Prelude ((<), (>))
 import Data.Maybe (Maybe (..))
 import Data.Int (round)
 import Data.Function.Uncurried (Fn2, runFn2)
-import Global (isNaN)
+import Data.Number (isNaN)
 
 
 foreign import unsafeParseInt :: Fn2 String Int Number
