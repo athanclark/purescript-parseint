@@ -1,7 +1,7 @@
 module Data.Float.Parse (parseFloat) where
 
 import Data.Maybe (Maybe (..))
-import Global (isNaN)
+import Data.Number (isNaN)
 
 
 foreign import unsafeParseFloat :: String -> Number
